@@ -17,9 +17,9 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    String ServerURL = "http://httpvaibhavmaliml.000webhostapp.com/insert.php" ;
+    String ServerURL = "http:/e" ;
     EditText name, email, hobbies, best_friend, contact, crush;
-    public static final String ROOT_URL = "http://httpvaibhavmaliml.000webhostapp.com/insert.php";
+    public static final String ROOT_URL = "http://;
     Button buttonRegister;
     String TempName, TempEmail,TempHobies,TempFriend,TempContact,TempCrush ;
     @Override
