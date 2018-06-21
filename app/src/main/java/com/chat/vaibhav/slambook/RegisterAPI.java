@@ -12,7 +12,7 @@ import retrofit.http.POST;
 
 interface RegisterAPI {
     @FormUrlEncoded
-    @POST("/http://httpvaibhavmaliml.000webhostapp.com/insert.php")
+    @POST("/http://php")
     public void insertUser(
             @Field("name") String name,
             @Field("username") String username,
